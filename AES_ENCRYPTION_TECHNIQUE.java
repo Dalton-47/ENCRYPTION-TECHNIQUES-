@@ -39,7 +39,7 @@ public class AES_ENCRYPTION_TECHNIQUE {
 
         try {
             Key key = new SecretKeySpec("abcdefghijklmnop".getBytes(), "AES");
-            Cipher cipher = Cipher.getInstance("AES");
+            Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
             cipher.init(Cipher.ENCRYPT_MODE, key);
              System.out.println("Original Message: " + originalMessage);
 
