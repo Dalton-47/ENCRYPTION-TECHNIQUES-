@@ -57,7 +57,7 @@ public class AES_ENCRYPTION_TECHNIQUE {
         }
   }
     
-    //use a method to convert the byte characters into hexadecimal
+    //Use a method to convert the byte characters into hexadecimal
        public static String toHexString(byte[] bytes) {
     StringBuilder hexString = new StringBuilder();
 
