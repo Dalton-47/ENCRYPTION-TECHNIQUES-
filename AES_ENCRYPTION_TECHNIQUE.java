@@ -114,7 +114,7 @@ public class AES_ENCRYPTION_TECHNIQUE {
      In this method we generate a secret key used for encryption and decryption. It returns a SecretKeySpec object initialized with a byte array of characters
      that represents the string "SecretKey1234567890" and the algorithm "AES".
      */
-  return new SecretKeySpec(new byte[] { 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' }, "AES");
+  return new SecretKeySpec(new byte[] { 'S', 'e', 'c', 'r', 'e', 't', 'K', 'e', 'y', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0' }, "AES"); //this returns a SecretKeySpec object
 }
 
 
